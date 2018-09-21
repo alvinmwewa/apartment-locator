@@ -5,22 +5,24 @@ import About from './About.js';
 import Contact from './Contact.js';
 import Signup from './accounts/Signup.js';
 import Login from './accounts/Login.js';
-import Notfound from './Notfound.js';
-import Navbar from './Navbar.js';
 
-class App extends Component{
+
+class Navbar extends Component{
 
 	render(){
 		return(
 			<div>
-					<Navbar/>
+				<div>
+					<a href='/'>Home</a>
+					<a href='/about'>About</a>
+					<a href='/contact'>Contact</a>
+					<a href='/login'>Log In</a>
+					<a href='/signup'>Sign Up</a>
+				</div>
 			</div>
 
 		)
 	}
 }
 
-export default App
-
-
-					
+export default Navbar
