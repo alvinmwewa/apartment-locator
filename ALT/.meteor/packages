@@ -25,3 +25,4 @@ session
 accounts-base
 accounts-password@1.5.0
 kadira:flow-router
+materialize:materialize
